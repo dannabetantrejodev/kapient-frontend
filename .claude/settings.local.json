@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(dir:*)",
+      "Bash(cmd /c \"dir D:\\\\Projects\\\\kapinet-strapi\\\\kapinet-strapi-backend\\\\src /s /b\")",
+      "Bash(cmd /c \"mkdir D:\\\\Projects\\\\kapinet-strapi\\\\kapinet-strapi-backend\\\\src\\\\api\\\\navbar\\\\content-types\\\\navbar && mkdir D:\\\\Projects\\\\kapinet-strapi\\\\kapinet-strapi-backend\\\\src\\\\api\\\\navbar\\\\routes && mkdir D:\\\\Projects\\\\kapinet-strapi\\\\kapinet-strapi-backend\\\\src\\\\api\\\\navbar\\\\controllers && mkdir D:\\\\Projects\\\\kapinet-strapi\\\\kapinet-strapi-backend\\\\src\\\\api\\\\navbar\\\\services\")",
+      "Bash(cmd /c:*)",
+      "Bash(powershell -Command:*)",
+      "Bash(python3:*)",
+      "Bash(/d/Projects/kapinet-strapi/kapinet-frontend/.env.local:*)",
+      "Bash(test:*)"
+    ]
+  }
+}
